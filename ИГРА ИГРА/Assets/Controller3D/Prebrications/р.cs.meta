@@ -3,7 +3,10 @@ guid: 09226277b1c7e92478093944cf396de7
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - BallaText: {instanceID: 0}
+  - stone: {fileID: 1483337707300288402, guid: 212bda17ca1716a41aebc3976208c562, type: 3}
+  - wiin: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

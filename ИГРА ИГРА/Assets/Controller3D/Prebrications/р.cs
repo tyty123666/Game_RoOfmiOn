@@ -8,6 +8,8 @@ public class р : MonoBehaviour
     public Text BallaText;
     public string q;
     public GameObject stone;
+    public GameObject wiin;
+    
         public int Balli = 0;
     public float i = 0;
     private bool CosanieKamna = false;
@@ -15,12 +17,19 @@ public class р : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        wiin.SetActive(true);
     }
 
     // Update is called once per frame
     void Update()
+
+
     {
+
+    if (Balli == 1)
+    {
+        
+    }
         BallaText.text = Balli.ToString();
        
         if (i == 1)
